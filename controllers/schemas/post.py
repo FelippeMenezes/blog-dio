@@ -3,6 +3,6 @@ from datetime import UTC, datetime
 
 class PostIn(BaseModel):
     title: str
-    date: datetime = datetime.now(UTC)
+    content: str
+    published_at: datetime = datetime.now()
     published: bool = False
-    author: str
