@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from datetime import UTC, datetime
+from datetime import datetime
 
 class PostIn(BaseModel):
     title: str
